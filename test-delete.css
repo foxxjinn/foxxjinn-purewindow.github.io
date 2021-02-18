@@ -1,0 +1,55 @@
+.services {
+    overflow:hidden;
+}
+
+.services-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.services-columns .services-column {
+    display: flex;
+    margin: 50px;
+}
+
+.services-left {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    justify-content: center;
+}
+
+.services-right {
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+}
+
+.services ul {
+    list-style: none;
+}
+
+.services li {
+
+} 
+
+.services img {
+    width: 105%;
+}
+
+.footer {
+    position: relative;
+    overflow: hidden;
+}
+
+.footer img {
+    position: absolute;
+    width: 105%;
+    bottom: 0px;
+}
+
+
+
